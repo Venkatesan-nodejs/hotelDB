@@ -43,12 +43,11 @@ public class HotelBooking {
 				try {
 					ob.display();
 				} catch (ServiceException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				break;
 			case 4:
-				System.out.println("Thank you for hotel booking services");
+				System.out.println("Thank you! for hotel booking services");
 				condition = false;
 				break;
 			default:

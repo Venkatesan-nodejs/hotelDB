@@ -47,7 +47,7 @@ public class DaoImp implements DaoInterface{
 				throw new DaoException("Connection failure"+e);
 			}
 		}
-
+//  Test
 		public void displayHotels(String city) throws CityNotFoundException {
 			Connection con=null;
 			PreparedStatement stmt=null;
